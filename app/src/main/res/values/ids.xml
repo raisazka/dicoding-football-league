@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="match_name" type="id"/>
+    <item name="match_time" type="id"/>
+    <item name="name_home" type="id" />
+    <item name="score_home" type="id" />
+    <item name="score_away" type="id" />
+    <item name="name_away" type="id" />
+    <item name="view_pager" type="id" />
+    <item name="tab_layout" type="id" />
+    <item name="next_match" type="id" />
+    <item name="prg_match" type="id" />
+    <item name="dot_score" type="id" />
+    <item name="btnStanding" type="id" />
+</resources>

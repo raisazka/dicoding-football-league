@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rais.footballleague">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ui.activities.SearchTeamActivity"></activity>
+        <activity
+            android:name=".ui.activities.StandingActivity"
+            android:label="@string/title_activity_standing" />
+        <activity android:name=".ui.activities.PlayerDetailActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.activities.LeagueActivity" />
+        <activity android:name=".ui.activities.MatchDetailActivity" />
+        <activity android:name=".ui.activities.SearchMatchActivity" />
+        <activity android:name=".ui.activities.TeamDetailActivity" />
+    </application>
+
+</manifest>

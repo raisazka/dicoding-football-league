@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">Football League</string>
+
+    <string-array name="leagueName">
+        <item>English Premier League</item>
+        <item>La Liga</item>
+        <item>Serie A</item>
+        <item>Ligue 1</item>
+        <item>Bundesliga</item>
+        <item>Eredivisie</item>
+    </string-array>
+
+    <integer-array name="leagueId">
+        <item>4328</item>
+        <item>4335</item>
+        <item>4332</item>
+        <item>4334</item>
+        <item>4331</item>
+        <item>4337</item>
+    </integer-array>
+
+    <string-array name="leagueDetail">
+        <item>England Finest League</item>
+        <item>Spain Best League and The best League in the world</item>
+        <item>Italian League</item>
+        <item>France Farmers League with PSG winning every season</item>
+        <item>Germany Farmers League</item>
+        <item>Holland Best League</item>
+    </string-array>
+
+
+    <array name="leageLogo">
+        <item>@drawable/prem</item>
+        <item>@drawable/laliga</item>
+        <item>@drawable/seria</item>
+        <item>@drawable/ligue1</item>
+        <item>@drawable/bundesliga</item>
+        <item>@drawable/eredivisie</item>
+    </array>
+
+
+    <string name="yellow_card">Yellow Card</string>
+    <string name="red_card">Red Card</string>
+    <string name="goal">Goal</string>
+    <string name="goalkeeper">Goalkeeper</string>
+    <string name="midfielder">Midfielder</string>
+    <string name="match_statistic">Match Statistic</string>
+    <string name="away_team">Away Team</string>
+    <string name="home_team">Home Team</string>
+    <string name="forward">Forward</string>
+    <string name="match_not_found">Match Not Found</string>
+    <string name="favorites">Favorites</string>
+    <string name="home">Home</string>
+    <string name="no_favorite_match">No Favorite Match</string>
+    <string name="search_match">Search Match</string>
+    <string name="league_logo">League Logo</string>
+    <string name="home_logo">Home Logo</string>
+    <string name="away_logo">Away Logo</string>
+    <string name="logo_team">Logo Team</string>
+    <string name="arsenal">Arsenal</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="youtube">youtube</string>
+    <string name="team_logo">team logo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="description">Description</string>
+    <string name="stadium">Stadium</string>
+    <string name="number">Number</string>
+    <string name="nationality">Nationality</string>
+    <string name="birthday">Birthday</string>
+    <string name="wage">Wage</string>
+    <string name="aaron_ramsey">Aaron Ramsey</string>
+    <string name="no_favorite_team_found">No Favorite Team Found</string>
+    <string name="title_activity_standing">StandingActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="team_name">Team Name</string>
+    <string name="gd">GD</string>
+    <string name="win">Win</string>
+    <string name="w">W</string>
+    <string name="d">D</string>
+    <string name="l">L</string>
+    <string name="pts">Pts</string>
+    <string name="played">Played</string>
+    <string name="no_team_found">No Team Found</string>
+    <string name="search_team">Search Team</string>
+
+</resources>
